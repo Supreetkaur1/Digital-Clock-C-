@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+
+int main()
+{ int a,b,c,d=1000;
+    cout<<"Please set time"<<endl;
+    cin>>a>>b>>c;
+    if(a>12||b>60||c>60) { cout<<"Invalid Input"<<endl;  }
+   else {while(1) { c++;
+
+    if(c>59) {c=0; b++;}
+    if(b>59) {b=0; a++;}
+    if(a>12) {a=1;}
+
+    cout<<a<<":";
+    cout<<b<<":";
+    cout<<c;
+Sleep(d);
+    system("cls");
+
+
+    } }
+
+return 0;
+
+
+
+
+}
