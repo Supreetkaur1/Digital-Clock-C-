@@ -1,12 +1,7 @@
 #include <iostream>
 
-using namespace std;
-
-
-#include <stdio.h>
-#include <stdlib.h>
 #include <windows.h>
-
+using namespace std;
 
 int main()
 { int a,b,c,d=1000;
@@ -34,3 +29,4 @@ return 0;
 
 
 }
+
